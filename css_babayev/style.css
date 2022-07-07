@@ -1,0 +1,41 @@
+h4{
+    display: inline;
+    float: left;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    display: inline;
+    float: right;
+}
+div{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    height: 450px;
+    border: 1px solid black;
+}
+section{
+    width: 100%;
+}
+ul,li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.delete {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #f44336;
+    border-radius: 16px
+  }
